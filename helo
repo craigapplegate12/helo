@@ -1,0 +1,4 @@
+--Create Table Users (ID Serial primary key, user_login_name TEXT, user_password TEXT, user_photo TEXT);
+--Create Table Posts (ID Serial Primary Key, post_author TEXT, post_image TEXT, post_title TEXT)
+Insert Into Users VALUES (1, 'craigapplegate', '1234');
+select * from Users;
